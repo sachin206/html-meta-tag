@@ -10,8 +10,7 @@ Metadata is always passed as name/value pairs.
 
 The content attribute MUST be defined if the name or the http-equiv attribute is defined. If none of these are defined, the content attribute CANNOT be defined.
 
-Attributes of Meta Tag
-
+##  Some General Meta Tags
 | Attribute | | Content | Detail | Example |
 | --- | --- | --- | --- | --- |
 |name | keywords | <keyword1, keyword2, keyword3….> | <meta name = "keywords" content = "HTML, Meta Tags, Metadata" /> |
@@ -24,14 +23,14 @@ Attributes of Meta Tag
 || copyright |company name |  |  |
 || language |ES |  |  |
 || robots |index,follow |  |  |
-|| rating,distribution,coverage,category,directory,identifier-URL,identifier-URL,owner,reply-to,copyright,revisit-after |<program---name> for example worderpress, JOOMLA etc. |  |  |
+|| rating,distribution,coverage,category,directory,identifier-URL,identifier-URL,owner,reply-to,copyright,revisit-after | |  |  |
 ||  | |  |  |
 |http-equiv | refresh |  |  |
 || Expires |index,follow |  |  |
-|| Pragma |index,follow |  |  |
-|| Cache-Control |index,follow |  |  |
+|| Pragma | |  |  |
+|| Cache-Control | |  |  |
 
-## Create Custom Meta Tags
+##  Custom Meta Tags
 
 Use custom meta tags to store data that you need in javascript, instead of hard-coding that data into your javascript.  I store my Google Analytics code in meta tags.  Here's some examples:
 
@@ -76,5 +75,5 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <meta name="msapplication-task" content="name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico" />
 <meta name="msapplication-task" content="name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico" />
 <meta name="msapplication-task" content="name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico" />
-<link rel="shortcut icon" href="/images/favicon.ico" />
+
 ```
