@@ -11,18 +11,18 @@ Metadata is always passed as name/value pairs.
 The content attribute MUST be defined if the name or the http-equiv attribute is defined. If none of these are defined, the content attribute CANNOT be defined.
 
 ##  Some General Meta Tags
-| Attribute | | Content | Detail | Example |
+| Attribute | | Content | Detail |  |
 | --- | --- | --- | --- | --- |
-|name | keywords | <keyword1, keyword2, keyword3….> | <meta name = "keywords" content = "HTML, Meta Tags, Metadata" /> |
-|| descrption |<descrption of document………..> |  |  |
-|| author |<author name....> |  |  |
-|| revised |Revison Date Sunday, July 18th, 2010, 5:15 pm |  |  |
-|| viewport |width=device-width, initial-scale=1, shrink-to-fit=no | | |
-|| generator |<program---name> for example worderpress, JOOMLA etc. |  |  |
-|| subject |your website's subject |  |  |
-|| copyright |company name |  |  |
-|| language |ES |  |  |
-|| robots |index,follow |  |  |
+|name | keywords | <keyword1, keyword2, keyword3….> | |
+|| descrption |<descrption of document………..> | Short description of the document (limit to 150 characters) |  |
+|| author |<author name....> | this tag is used for author of html document  |  |
+|| revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
+|| viewport |width=device-width, initial-scale=1, shrink-to-fit=no | this tag is used for html page width with screen| |
+|| generator |<program---name> for example worderpress, JOOMLA etc. | this tag is used for page programming language |  |
+|| subject |your website's subject |  this is used for website subject|  |
+|| copyright |company name | used for compnay name  |  |
+|| language |ES |  language used in html documnet |  |
+|| robots |index,follow | Control the behavior of search engine crawling and indexing |  |
 || rating,distribution,coverage,category,directory,identifier-URL,identifier-URL,owner,reply-to,copyright,revisit-after | |  |  |
 ||  | |  |  |
 |http-equiv | refresh |  |  |
