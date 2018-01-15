@@ -12,7 +12,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 
 Attributes of Meta Tag
 
-| Attribute || | Content | Detail | Example
-| --- | --- | --- | --- | --- | --- |
-| name | keywords || List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| Attribute | Content | Detail | Example
+| --- | --- | --- | --- | --- |
+| name | keywords | <keyword1, keyword2, keyword3….> | | <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+|  | descrption |<descrption of document………..> | <!-- Short description of the document (limit to 150 characters) --> | <meta name = "descrption" content = "this is test description" />
