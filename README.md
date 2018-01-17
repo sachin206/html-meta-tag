@@ -15,14 +15,15 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 | --- | --- | --- | --- | --- |
 |name | keywords | <keyword1, keyword2, keyword3….> | keywords tag is where you put all of the keywords you use in your site. ...It helps in SEO. |
 || description |<description of document………..> | this is used for defining document description (limit to 150 characters) |  |
-|| author |<author name....> | this tag is used for author of html document  |  |
-|| revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
 || viewport |__width:__ Sets the width of the layout viewport. In our case we set this to the “device-width” which overrides Apples default 960px.<br /> __initial-scale:__  Sets the initial zoom of the page AND the width of the layout viewport. We set this to 1 which is the default view, but you can easily increase this number (not recommended).<br /> __minimum-scale:__ Sets the minimum zoom level (i.e. how much the user can zoom out). This takes the control away from the user and something we never recommend.<br /> __maximum-scale:__ Sets the maximum zoom level (i.e. how much the user can zoom in). Again this is not recommended because it takes away control from the user.<br /> __height:__ Is supposed to set the height of the layout viewport. It is not supported anywhere…. so not really sure it’s included.<br /> __user-scalable:__ When set to no prevents the user from zooming. This is an abomination that MUST NOT be used. Even if you think you know what’s best for the user, you don’t, leave it alone.<br /> | this tag is used for controlling of rendering page. | |
 || generator |<program---name> for example worderpress, JOOMLA etc. | this tag is used for  page programming language which is used in creating this page/website |  |
+|| robots |__INDEX:__ used for the search engine crawler to follow the links in that webpage,<br /> __FOLLOW:__ used for the search engine crawler to index webpage <br /> __NOFOLLOW:__ used for the search engine crawler NOT to follow the links in that webpage <br /> __NONINDEX:__ used for the search engine crawler NOT to index that webpage | Control the behavior of search engine crawling and indexing |  |
 || subject |your website's subject |  this is used for website subject|  |
+|| application-name |name of application name. (only should be used if the website is used as an app) | this tag is used for company name  |  |
 || company |company name | this tag is used for company name  |  |
 || language |ES,EN,FR.... | this tag is used for defining language of html document |  |
-|| robots |__INDEX:__ used for the search engine crawler to follow the links in that webpage,<br /> __FOLLOW:__ used for the search engine crawler to index webpage <br /> __NOFOLLOW:__ used for the search engine crawler NOT to follow the links in that webpage <br /> __NONINDEX:__ used for the search engine crawler NOT to index that webpage | Control the behavior of search engine crawling and indexing |  |
+|| author |<author name....> | this tag is used for author of html document  |  |
+|| revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
 || rating| |  |  |
 || distribution | | |  |
 || coverage | | |  |
@@ -40,6 +41,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 || robots | | |  |
 ||  | |  |  |
 |http-equiv | refresh |  |  |
+|| x-ua-compatible | IE=edge,IE=11,IE=EmulateIE11,IE=10,IE=EmulateIE10,IE=9,IE=EmulateIE9,IE=8,IE=EmulateIE8,IE=7,IE=EmulateIE7,IE=5 | this tag is used for IE browser to rendering the page in specific IE version. It should be used when page forced to be render in lowe version of IE. position of tag is just after head tag. |
 || Expires |index,follow |  |  |
 || Pragma | |  |  |
 || Cache-Control | |  |  |
