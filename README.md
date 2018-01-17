@@ -11,17 +11,22 @@ Meta data is always passed as name(name/http-equiv)/value(contnet) pairs.
 The content attribute MUST be defined if the name or the http-equiv attribute is defined. If none of these are defined, the content attribute CANNOT be defined.
 
 ##  Some General Meta Tags
-| Attribute | | Content(Value of Meta Aatribute) | Detail |  |
+| Attribute | | Content(Possible Value of Meta Attribute) | Detail |   |
 | --- | --- | --- | --- | --- |
-|name | keywords | <keyword1, keyword2, keyword3….> | |
-|| descrption |<descrption of document………..> | Short description of the document (limit to 150 characters) |  |
+|name | keywords | <keyword1, keyword2, keyword3….> | keywords tag is where you put all of the keywords you use in your site. ...It helps in SEO. |
+|| descrption |<descrption of document………..> | this is used for defining document descrption (limit to 150 characters) |  |
 || author |<author name....> | this tag is used for author of html document  |  |
 || revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
-|| viewport |width=device-width, initial-scale=1, shrink-to-fit=no | this tag is used for html page width with screen| |
-|| generator |<program---name> for example worderpress, JOOMLA etc. | this tag is used for page programming language |  |
+|| viewport |[width=device-width, initial-scale=1, shrink-to-fit=no],[width=500, initial-scale=1],[width=...,initial-scale=...,maximum-scale=...,user-scalable=...,minimum-scale=....] | this tag is used for html page width with screen width: Sets the width of the layout viewport. In our case we set this to the “device-width” which overrides Apples default 960px.
+initial-scale: Sets the initial zoom of the page AND the width of the layout viewport. We set this to 1 which is the default view, but you can easily increase this number (not recommended).
+minimum-scale: Sets the minimum zoom level (i.e. how much the user can zoom out). This takes the control away from the user and something we never recommend.
+maximum-scale: Sets the maximum zoom level (i.e. how much the user can zoom in). Again this is not recommended because it takes away control from the user.
+height. Is supposed to set the height of the layout viewport. It is not supported anywhere…. so not really sure it’s included.
+user-scalable: When set to no prevents the user from zooming. This is an abomination that MUST NOT be used. Even if you think you know what’s best for the user, you don’t, leave it alone.| |
+|| generator |<program---name> for example worderpress, JOOMLA etc. | this tag is used for  page programming language which is used in creating this page/website |  |
 || subject |your website's subject |  this is used for website subject|  |
-|| copyright |company name | used for compnay name  |  |
-|| language |ES |  language used in html documnet |  |
+|| copyright |company name | this tag is used for company name  |  |
+|| language |ES | this tag is used for defining language of html document |  |
 || robots |index,follow | Control the behavior of search engine crawling and indexing |  |
 || rating,distribution,coverage,category,directory,identifier-URL,identifier-URL,owner,reply-to,copyright,revisit-after | |  |  |
 ||  | |  |  |
