@@ -22,7 +22,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 || subject |your website's subject |  this is used for website subject|  |
 || company |company name | this tag is used for company name  |  |
 || language |ES,EN,FR.... | this tag is used for defining language of html document |  |
-|| robots |__INDEX:__ used for the search engine crawler to follow the links in that webpage,<br />__FOLLOW:__used for the search engine crawler to index webpage <br />__NOFOLLOW:__used for the search engine crawler NOT to follow the links in that webpage<br />__NONINDEX:__used for the search engine crawler NOT to index that webpage | Control the behavior of search engine crawling and indexing |  |
+|| robots |__INDEX:__ used for the search engine crawler to follow the links in that webpage,<br /> __FOLLOW:__ used for the search engine crawler to index webpage <br /> __NOFOLLOW:__ used for the search engine crawler NOT to follow the links in that webpage <br /> __NONINDEX:__ used for the search engine crawler NOT to index that webpage | Control the behavior of search engine crawling and indexing |  |
 || rating| |  |  |
 || distribution | | |  |
 || coverage | | |  |
