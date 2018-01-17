@@ -23,7 +23,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 || company |company name | this tag is used for company name  |  |
 || language |ES,EN,FR.... | this tag is used for defining language of html document |  |
 || author |<author name....> | this tag is used for author of html document  |  |
-|| revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
+|| revised |Revison Date of page for example Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
 || rating| |  |  |
 || distribution | | |  |
 || coverage | | |  |
@@ -41,7 +41,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 || robots | | |  |
 ||  | |  |  |
 |http-equiv | refresh |  |  |
-|| x-ua-compatible | IE=edge,IE=11,IE=EmulateIE11,IE=10,IE=EmulateIE10,IE=9,IE=EmulateIE9,IE=8,IE=EmulateIE8,IE=7,IE=EmulateIE7,IE=5 | this tag is used for IE browser to rendering the page in specific IE version. It should be used when page forced to be render in lowe version of IE. position of tag is just after head tag. |
+|| x-ua-compatible | IE=edge,IE=11,IE=EmulateIE11,IE=10,IE=EmulateIE10, <br />IE=9,IE=EmulateIE9,IE=8,IE=EmulateIE8,IE=7,IE=EmulateIE7,IE=5 | this tag is used for IE browser to rendering the page in specific IE version. It should be used when page forced to be render in lowe version of IE. position of tag is just after head tag. |
 || Expires |index,follow |  |  |
 || Pragma | |  |  |
 || Cache-Control | |  |  |
