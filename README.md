@@ -17,12 +17,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 || descrption |<descrption of document………..> | this is used for defining document descrption (limit to 150 characters) |  |
 || author |<author name....> | this tag is used for author of html document  |  |
 || revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
-|| viewport |[width=device-width, initial-scale=1, shrink-to-fit=no],[width=500, initial-scale=1],[width=...,initial-scale=...,maximum-scale=...,user-scalable=...,minimum-scale=....] | this tag is used for html page width with screen width: Sets the width of the layout viewport. In our case we set this to the “device-width” which overrides Apples default 960px.
-initial-scale: Sets the initial zoom of the page AND the width of the layout viewport. We set this to 1 which is the default view, but you can easily increase this number (not recommended).
-minimum-scale: Sets the minimum zoom level (i.e. how much the user can zoom out). This takes the control away from the user and something we never recommend.
-maximum-scale: Sets the maximum zoom level (i.e. how much the user can zoom in). Again this is not recommended because it takes away control from the user.
-height. Is supposed to set the height of the layout viewport. It is not supported anywhere…. so not really sure it’s included.
-user-scalable: When set to no prevents the user from zooming. This is an abomination that MUST NOT be used. Even if you think you know what’s best for the user, you don’t, leave it alone.| |
+|| viewport |[width=device-width, initial-scale=1, shrink-to-fit=no],[width=500, initial-scale=1],[width=...,initial-scale=...,maximum-scale=...,user-scalable=...,minimum-scale=....] | this tag is used for html page width with screen | |
 || generator |<program---name> for example worderpress, JOOMLA etc. | this tag is used for  page programming language which is used in creating this page/website |  |
 || subject |your website's subject |  this is used for website subject|  |
 || copyright |company name | this tag is used for company name  |  |
