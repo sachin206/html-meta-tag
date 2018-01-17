@@ -14,16 +14,30 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 | Attribute | | Content(Possible Value of Meta Attribute) | Detail |   |
 | --- | --- | --- | --- | --- |
 |name | keywords | <keyword1, keyword2, keyword3….> | keywords tag is where you put all of the keywords you use in your site. ...It helps in SEO. |
-|| descrption |<descrption of document………..> | this is used for defining document descrption (limit to 150 characters) |  |
+|| description |<description of document………..> | this is used for defining document description (limit to 150 characters) |  |
 || author |<author name....> | this tag is used for author of html document  |  |
 || revised |Revison Date Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
-|| viewport |[width=device-width, initial-scale=1, shrink-to-fit=no],[width=500, initial-scale=1],[width=...,initial-scale=...,maximum-scale=...,user-scalable=...,minimum-scale=....] | this tag is used for html page width with screen | |
+|| viewport |[width=device-width, initial-scale=1, shrink-to-fit=no],[width=500, initial-scale=1],[width=...,initial-scale=...,maximum-scale=...,user-scalable=...,minimum-scale=....] | this tag is used for controlling of rendering page. | |
 || generator |<program---name> for example worderpress, JOOMLA etc. | this tag is used for  page programming language which is used in creating this page/website |  |
 || subject |your website's subject |  this is used for website subject|  |
-|| copyright |company name | this tag is used for company name  |  |
-|| language |ES | this tag is used for defining language of html document |  |
-|| robots |index,follow | Control the behavior of search engine crawling and indexing |  |
-|| rating,distribution,coverage,category,directory,identifier-URL,identifier-URL,owner,reply-to,copyright,revisit-after | |  |  |
+|| company |company name | this tag is used for company name  |  |
+|| language |ES,EN,FR.... | this tag is used for defining language of html document |  |
+|| robots |__INDEX:__ used for the search engine crawler to follow the links in that webpage,<br />__FOLLOW:__used for the search engine crawler to index webpage <br />__NOFOLLOW:__used for the search engine crawler NOT to follow the links in that webpage<br />__NONINDEX:__used for the search engine crawler NOT to index that webpage | Control the behavior of search engine crawling and indexing |  |
+|| rating| |  |  |
+|| distribution | | |  |
+|| coverage | | |  |
+|| category | | |  |
+|| directory | | |  |
+|| identifier-URL | | |  |
+|| owner | | |  |
+|| revisit-after | | |  |
+|| reply-to | | |  |
+|| robots | | |  |
+|| robots | | |  |
+|| robots | | |  |
+|| robots | | |  |
+|| robots | | |  |
+|| robots | | |  |
 ||  | |  |  |
 |http-equiv | refresh |  |  |
 || Expires |index,follow |  |  |
