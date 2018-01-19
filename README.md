@@ -25,8 +25,7 @@ The content attribute MUST be defined if the name or the http-equiv attribute is
 || author |name of the author | this tag is used for author of html document  |  |
 || revised |Revison Date of page for example Sunday, July 18th, 2010, 5:15 pm | used for revision of html document  |  |
 || rating|__general__ <br/> __mature__ <br /> __restricted__ <br /> __14 years safe for kids__ | If you wish to rate your page's audience appropriateness, use the rating meta tag. This meta tag is often use to let the younger web-surfers know the content is appropriate. this meta tag has no influence on your search engine ranking |  |
-|| distribution | __Global:__ indicates that your web-page is intended for everyone <br /> __Local:__ intended for local distribution of your document <br /> __IU:__ Internal Use, not intended for public distribution.
- | The meta tag defines the level or degree of distribution of  web-page and how it should be classified in relation to methods of distribution on the world wide web. |  |
+|| distribution | __Global:__ indicates that your web-page is intended for everyone <br /> __Local:__ intended for local distribution of your document <br /> __IU:__ Internal Use, not intended for public distribution.| The meta tag defines the level or degree of distribution of  web-page and how it should be classified in relation to methods of distribution on the world wide web. |  |
 || coverage | | |  |
 || category | | |  |
 || directory | | |  |
