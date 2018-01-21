@@ -47,7 +47,31 @@ Use custom meta tags to store data that you need in javascript, instead of hard-
 <meta name="mixpanel" content="asdfasdf"/>
 ```
 
+
 ## Company/Service Meta Tags
+
+#### Google Specific Tags
+``` html
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Tells Google not to show the sitelinks search box -->
+<meta name="google" content="nositelinkssearchbox">
+
+<!-- Tells Google not to provide a translation for this document -->
+<meta name="google" content="notranslate">
+```
+
+
+``` html
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
+<meta name="yandex-verification" content="verification_token"><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
+<meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
+```
 
 #### ClaimID
 
